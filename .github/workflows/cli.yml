@@ -9,5 +9,4 @@ jobs:
             - uses: actions/checkout@v1
             - name: Install Prerequisites
               run: |
-                sudo apt-get update
-                sudo apt-get install -y --no-install-recommends "a very very long list of prerequisites"
+                echo hello world
