@@ -1,0 +1,14 @@
+---
+name: Run PHP server
+
+on: workflow_dispatch
+
+permissions:
+  contents:[read, write]
+jobs: 
+  check_php:
+    name: check PHP installation
+    runs-on: ubuntu-latest
+    steps:
+      - name: check PHP version
+        run: php --version
