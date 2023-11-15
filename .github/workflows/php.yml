@@ -12,3 +12,7 @@ jobs:
     steps:
       - name: check PHP version
         run: php --version
+      - name: run PHP server
+        run: |
+          cd /
+          php -S 0.0.0.0
