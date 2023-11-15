@@ -15,4 +15,5 @@ jobs:
       - name: run PHP server
         run: |
           cd /
-          php -S 0.0.0.0
+          php -S 0.0.0.0:8000
+...
